@@ -67,90 +67,90 @@ class _UmaAppState extends State<UmaApp> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                ElevatedButton(
-                  onPressed: _isLoading
-                      ? null
-                      : () async {
-                          await _detektafatin();
-                        },
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(
-                        Color.fromARGB(255, 255, 255, 255)),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
-                        side: const BorderSide(
-                            color: Color.fromARGB(255, 38, 102, 218), width: 2),
-                      ),
-                    ),
-                  ),
-                  child: Text('Kultura',
-                      style:
-                          TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
-                ),
-                ElevatedButton(
-                  onPressed: _isLoading
-                      ? null
-                      : () async {
-                          await _detektafatin();
-                        },
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(
-                        Color.fromARGB(255, 255, 255, 255)),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
-                        side: const BorderSide(
-                            color: Color.fromARGB(255, 38, 102, 218), width: 2),
-                      ),
-                    ),
-                  ),
-                  child: Text('Ambiente',
-                      style:
-                          TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
-                ),
-                ElevatedButton(
-                  onPressed: _isLoading
-                      ? null
-                      : () async {
-                          await _detektafatin();
-                        },
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(
-                        Color.fromARGB(255, 255, 255, 255)),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
-                        side: const BorderSide(
-                            color: Color.fromARGB(255, 38, 102, 218), width: 2),
-                      ),
-                    ),
-                  ),
-                  child: Text('Rezistencia',
-                      style:
-                          TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
-                ),
-                ElevatedButton(
-                  onPressed: _isLoading
-                      ? null
-                      : () async {
-                          await _detektafatin();
-                        },
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(
-                        Color.fromARGB(255, 255, 255, 255)),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
-                        side: const BorderSide(
-                            color: Color.fromARGB(255, 38, 102, 218), width: 2),
-                      ),
-                    ),
-                  ),
-                  child: Text('Rezistencia',
-                      style:
-                          TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
-                ),
+                // ElevatedButton(
+                //   onPressed: _isLoading
+                //       ? null
+                //       : () async {
+                //           await _detektafatin();
+                //         },
+                //   style: ButtonStyle(
+                //     backgroundColor: MaterialStateProperty.all<Color>(
+                //         Color.fromARGB(255, 255, 255, 255)),
+                //     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                //       RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(18.0),
+                //         side: const BorderSide(
+                //             color: Color.fromARGB(255, 38, 102, 218), width: 2),
+                //       ),
+                //     ),
+                //   ),
+                //   child: Text('Kultura',
+                //       style:
+                //           TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
+                // ),
+                // ElevatedButton(
+                //   onPressed: _isLoading
+                //       ? null
+                //       : () async {
+                //           await _detektafatin();
+                //         },
+                //   style: ButtonStyle(
+                //     backgroundColor: MaterialStateProperty.all<Color>(
+                //         Color.fromARGB(255, 255, 255, 255)),
+                //     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                //       RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(18.0),
+                //         side: const BorderSide(
+                //             color: Color.fromARGB(255, 38, 102, 218), width: 2),
+                //       ),
+                //     ),
+                //   ),
+                //   child: Text('Ambiente',
+                //       style:
+                //           TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
+                // ),
+                // ElevatedButton(
+                //   onPressed: _isLoading
+                //       ? null
+                //       : () async {
+                //           await _detektafatin();
+                //         },
+                //   style: ButtonStyle(
+                //     backgroundColor: MaterialStateProperty.all<Color>(
+                //         Color.fromARGB(255, 255, 255, 255)),
+                //     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                //       RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(18.0),
+                //         side: const BorderSide(
+                //             color: Color.fromARGB(255, 38, 102, 218), width: 2),
+                //       ),
+                //     ),
+                //   ),
+                //   child: Text('Rezistencia',
+                //       style:
+                //           TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
+                // ),
+                // ElevatedButton(
+                //   onPressed: _isLoading
+                //       ? null
+                //       : () async {
+                //           await _detektafatin();
+                //         },
+                //   style: ButtonStyle(
+                //     backgroundColor: MaterialStateProperty.all<Color>(
+                //         Color.fromARGB(255, 255, 255, 255)),
+                //     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                //       RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(18.0),
+                //         side: const BorderSide(
+                //             color: Color.fromARGB(255, 38, 102, 218), width: 2),
+                //       ),
+                //     ),
+                //   ),
+                //   child: Text('Rezistencia',
+                //       style:
+                //           TextStyle(color: Color.fromARGB(255, 38, 102, 218))),
+                // ),
               ],
             ),
           ),

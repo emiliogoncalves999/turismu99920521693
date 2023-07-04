@@ -18,7 +18,9 @@ import 'package:turismutl999/uma.dart';
 // https://event.timordigital.gov.tl/en/turismuapi/turismu/listtourism-places/
 
 void main() {
-  runApp(SplashScreen());
+  runApp(MaterialApp(
+    home: SplashScreen(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -60,7 +62,8 @@ class _SplashScreenState extends State<SplashScreen> {
         opacityLevel = 0.0; // Set the opacity to 0 to fade out the image
       });
       Future.delayed(Duration(milliseconds: 500)).then((_) {
-        Navigator.of(context).pushReplacement(
+        Navigator.pushReplacement(
+          context,
           MaterialPageRoute(builder: (context) => UmaApp()),
         ); // Redirect to the next screen after the fade out animation is finished
       });
